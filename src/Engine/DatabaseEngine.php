@@ -188,6 +188,7 @@ abstract class DatabaseEngine implements GeometryEngine
             'COMPOUNDCURVE'      => Proxy\CompoundCurveProxy::class,
             'CURVE'              => Proxy\CurveProxy::class,
             'CURVEPOLYGON'       => Proxy\CurvePolygonProxy::class,
+            'GEOMCOLLECTION'     => Proxy\GeometryCollectionProxy::class,
             'GEOMETRY'           => Proxy\GeometryProxy::class,
             'GEOMETRYCOLLECTION' => Proxy\GeometryCollectionProxy::class,
             'LINESTRING'         => Proxy\LineStringProxy::class,
